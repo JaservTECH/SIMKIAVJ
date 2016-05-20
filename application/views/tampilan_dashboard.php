@@ -37,8 +37,8 @@
 							<i class="fa fa-users fa-5x"></i>
 						</div>
 						<div class="col-xs-9 text-right">
-							
-							<div class="huge">Pasien</div>
+							<div class="huge">60</div>
+							<div>Pasien</div>
 						</div>
 					</div>
 				</div>
