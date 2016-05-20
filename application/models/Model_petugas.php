@@ -65,5 +65,8 @@
 			$this->db->where('id_user',$id_user);
 			$this->db->delete('user');    
 		}	
+		function getTotalPetugas(){
+			return count($this->db->query("SELECT * FROM user")->result_array());
+		}
 		
 }

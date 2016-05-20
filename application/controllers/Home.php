@@ -9,6 +9,8 @@
 		
 		public function index()
 		{
+			$this->load->model('model_petugas');
+			$isi['total_petugas'] = "".$this->model_petugas->getTotalPetugas()."";
 			$isi['content']		= 'tampilan_dashboard';
 			$isi['judul']	 	= 'Dashboard';
 			$isi['sub_judul'] 	= 'SIM KIA';
