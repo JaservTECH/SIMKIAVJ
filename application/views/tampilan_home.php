@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" >
-					<img class="img-responsive2" src="<?php echo base_url();?>image/logo.png">
+					<img style="margin-top : -10px;" class="img-responsive2" src="<?php echo base_url();?>image/logo.png">
 				</a>
 			</div>
 		  
