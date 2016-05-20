@@ -1,4 +1,4 @@
-<!-- /.row -->
+﻿<!-- /.row -->
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url()."resource/assets/css/bootstrap.css" ?>">
 
@@ -76,11 +76,11 @@
 											<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
 										</a>
 										
-										<a href="#delete" data-toggle="modal" data-target="#ModalDelete">
+										<a href="#delete" data-toggle="modal" data-target="#ModalDelete<?php echo $row->id_user ?>">
 											<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 										</a>
 										
-										<div class="modal fade" id="ModalDelete" role="dialog" aria-labelledby="myModalLabel">
+										<div class="modal fade" id="ModalDelete<?php echo $row->id_user ?>" role="dialog" aria-labelledby="myModalLabel">
 										  <div class="modal-dialog" role="document">
 											<div class="modal-content">
 											  <div class="modal-header">
