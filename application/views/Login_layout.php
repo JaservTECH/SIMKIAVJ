@@ -129,10 +129,10 @@
 								  <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
 								</div>
 								<div class="checkbox">  
-								  <select class="form-control">
-									<option>Admin</option>
-									<option>Petugas</option>
-									<option>Pasien</option>
+								  <select name="kategori" class="form-control">
+									<option value="1">Admin</option>
+									<option value="2">Petugas</option>
+									<option value="3">Pasien</option>
 								  </select>
 								</div>
 								<div class="checkbox">

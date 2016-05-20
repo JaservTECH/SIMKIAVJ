@@ -59,7 +59,7 @@
 			  
 			  <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-					<a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout</a>
+					<a href="<?php echo $logout;?>"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout</a>
 				</li>
               </ul>
 		    </div>
